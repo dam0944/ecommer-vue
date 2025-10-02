@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap";
+@import"https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "tw-animate-css";
+
+@plugin "daisyui";
+
+body {
+  /* font-family: 'Inter', sans-serif; */
+  font-family: 'Noto Sans Khmer', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
