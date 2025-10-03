@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-base-200 min-h-screen py-6">
-    <div class="container mx-auto px-4">
+  <div class="py-6">
+    <div class="mx-auto px-4">
       <h4 class="font-bold text-2xl mb-6 text-base-content">🛒 Shopping Cart</h4>
       
       <div class="flex flex-col lg:flex-row gap-8">

@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen bg-gray-50 py-8">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="mx-auto px-4">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Order Summary -->
-        <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="bg-white rounded-lg p-6">
           <h2 class="text-xl font-semibold mb-6">Order Summary</h2>
           
           <div class="space-y-4 mb-6">
@@ -243,19 +243,6 @@
                   />
                 </div>
               </div>
-
-              <!-- QR Code Payment -->
-              <div v-else-if="paymentMethod === 'qr'" class="text-center py-8">
-                <div class="w-48 h-48 bg-gray-200 mx-auto mb-4 rounded-lg flex items-center justify-center">
-                  <div class="text-gray-500">
-                    <div class="text-4xl mb-2">📱</div>
-                    <div class="text-sm">QR Code</div>
-                    <div class="text-xs">Scan to pay</div>
-                  </div>
-                </div>
-                <p class="text-sm text-gray-600">Scan this QR code with your mobile payment app</p>
-              </div>
-
               <button
                 type="submit"
                 class="w-full bg-green-600 text-white py-3 px-4 rounded-md font-medium hover:bg-green-700 transition-colors"
